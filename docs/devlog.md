@@ -48,3 +48,5 @@ Eltárolja a Player GameObjecten található Rigidbody2D komponenst.
         rb.linearVelocity = new Vector2(moveInput.x * walkSpeed,rb.linearVelocity.y);
     }
 A Player vízszintes mozgását vezérli
+
+Cinemachine követő kamera beállítása deadzone és lookahead értékek tesztelése
